@@ -2,3 +2,4 @@ ncatbot
 langchain-openai
 langchain-core
 openai
+os
