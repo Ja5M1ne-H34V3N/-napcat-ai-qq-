@@ -1,0 +1,3 @@
+[2026-03-24 18:20:37,061.061] INFO     Adapter 'adapter.py:110' | NapCat WebSocket 连接已关闭, 正在尝试重新连接...
+[2026-03-24 18:20:37,436.436] INFO     Adapter 'adapter.py:118' | NapCat WebSocket 重新连接成功
+[2026-03-24 18:20:37,441.441] INFO     Client 'client.py:121' | Bot 2690034884 启动成功

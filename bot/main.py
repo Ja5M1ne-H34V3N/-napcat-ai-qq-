@@ -64,7 +64,7 @@ async def on_private_message(msg: PrivateMessage):
         
         if msg_text == '/aimode':
             aiMode = True
-            await bot.api.post_private_msg(user_id, text="#进入ai对话模式，ai相应需要时间，有的时候需要耐心等待~")
+            await bot.api.post_private_msg(user_id, text="#进入ai对话模式，ai响应需要时间，有的时候需要耐心等待~")
             return
 
     #判断是否为ai对话状态

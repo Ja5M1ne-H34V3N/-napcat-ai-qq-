@@ -1,0 +1,41 @@
+[2026-03-11 09:34:33,012.012] WARNING  Config 'config.py:343' | 配置文件未找到
+[2026-03-11 09:34:33,012.012] ERROR    Config 'config.py:422' | 加载配置失败: [setting] 配置文件不存在！
+[2026-03-11 09:35:47,889.889] WARNING  Config 'config.py:343' | 配置文件未找到
+[2026-03-11 09:35:47,889.889] ERROR    Config 'config.py:422' | 加载配置失败: [setting] 配置文件不存在！
+[2026-03-11 09:36:25,266.266] WARNING  Config 'config.py:343' | 配置文件未找到
+[2026-03-11 09:36:25,266.266] ERROR    Config 'config.py:422' | 加载配置失败: [setting] 配置文件不存在！
+[2026-03-11 09:36:32,177.177] WARNING  Config 'config.py:398' | 配置中未设置 QQ 号
+[2026-03-11 09:36:37,081.081] WARNING  Config 'config.py:402' | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2026-03-11 09:36:37,081.081] INFO     Config 'config.py:404' | [BOTQQ]: 2690034884 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: NcatBot
+[2026-03-11 09:36:39,720.720] INFO     Config 'config.py:208' | 已生成强密码: >p1{}Bv=H:)[A;}m
+[2026-03-11 09:36:39,723.723] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/dcg/qqbot/bot/config.yaml
+[2026-03-11 09:36:39,871.871] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-03-11 09:36:39,872.872] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-03-11 09:36:39,874.874] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-03-11 09:36:39,875.875] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/dcg/qqbot/bot/plugins 导入插件
+[2026-03-11 09:36:39,875.875] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-03-11 09:36:39,876.876] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-03-11 09:36:39,904.904] WARNING  ncatbot.core.adapter.nc.launch 'launch.py:47' | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 3001)
+[2026-03-11 09:36:39,944.944] WARNING  ncatbot.core.adapter.nc.config 'config.py:135' | WebUI 令牌不匹配, 将修改为 NcatBot 配置的令牌: >p1{}Bv=H:)[A;}m
+[2026-03-11 09:36:40,027.027] INFO     adapter.nc.start 'start.py:39' | 正在启动 NapCat 服务
+[2026-03-11 09:36:45,711.711] INFO     adapter.nc.start 'start.py:67' | napcat 启动成功
+[2026-03-11 09:36:48,285.285] INFO     ncatbot.core.adapter.nc.launch 'launch.py:135' | 快速登录成功, 跳过登录引导
+[2026-03-11 09:36:48,337.337] INFO     Adapter 'adapter.py:91' | NapCat WebSocket 连接成功
+[2026-03-11 09:36:48,338.338] INFO     Client 'client.py:121' | Bot 2690034884 启动成功
+[2026-03-11 09:37:04,058.058] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-03-11 17:37:07,636.636] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhTccll91B4CBYizv9O7vTnzn4nKdhjtyuMCIP4KKLi44IfGl5MDMgRwcm9kUIC7L1oQ4QLHMK324I1Zuv8BCy_-j3oCyFyCAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:07,651.651] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhTNoBYPHMXRRNGrB3HJl9OmkVi04hjVs7gCIP4KKObc9YfGl5MDMgRwcm9kUIC7L1oQPEknzR9t-3KtfkTyQEE5r3oCXASCAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:07,653.653] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhTUbMgPSJkazYZgWtusj3t9CaQMIxi54toCIP4KKJWUuIfGl5MDMgRwcm9kUIC7L1oQif4mXLipmhN0ePneC7q0u3oC7rWCAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:07,654.654] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhQjphAJgyyN1Rd8pd7hHISV_lkOXxjRi9cCIP4KKJODy4fGl5MDMgRwcm9kUIC7L1oQWf90ddokSpeqM5FBC6IIvXoCNOGCAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:07,656.656] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhTb1jp3RKb2_LLBTJjFcD5E9WTOKBjqqeACIP4KKJjC2YfGl5MDMgRwcm9kUIC7L1oQ4XeJkMwWWpm1rRBTEOmMW3oCxECCAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:07,658.658] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhQLsxtoXmj2c697Eiej878GwOqHtxjEjOwCIP4KKPay_IfGl5MDMgRwcm9kUIC7L1oQFnnGwGzi9mAr6eznEdng-HoCqI6CAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:07,670.670] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhS8YVlVmkQwPUbDIpWmf4qDafF6dhiJhN4CIP4KKPTlv4fGl5MDMgRwcm9kUIC7L1oQVbAZ5NwbSTu661ImSONsM3oCYwGCAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:07,672.672] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhSZanw5LAmyaDFU58ZmYf2iPRLc8Rivqu0CIP4KKPHDh4jGl5MDMgRwcm9kUIC7L1oQM5QHaqTzW_tGB1WR2jv1wnoCr3KCAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:08,072.072] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhRo_JE-CXLD0hXgkPabHIUEcQoERxisyq4CIP4KKLChkYjGl5MDMgRwcm9kUIC7L1oQj2O6CunFE3BwIWTefPReGHoCQYiCAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:08,347.347] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhQokOLatfoZ-zjSvLQdG47PN8ryfBjZ_tMBIP4KKMLJoYjGl5MDMgRwcm9kUIC7L1oQBqqpVTddaGU7THEkhq1OK3oCZz6CAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:08,698.698] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhSpqJmZ0r8D6U7L0mv98sPJ0_RZBBjgxI0BIP4KKLixqIjGl5MDMgRwcm9kUIC7L1oQRelf7jezevtjgdpxEQMDFHoCCb-CAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:09,104.104] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhQwwQREWjNoE3iCzYkIhpsUkka5XhjEwMoBIP4KKODTvIjGl5MDMgRwcm9kUIC7L1oQQVkhGud9ux16JbUqtSzd9noCm5OCAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:09,538.538] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhR6coiYeIEcbOQtTjo0w8orw7uRTxjRvNECIP4KKO3sw4jGl5MDMgRwcm9kUIC7L1oQvLK-ossLFe5zjG7N3CdktnoCXLqCAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:09,877.877] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhQlRYUyoyJZ4XTDnxjNLbGBNVByjBjQ86UBIP4KKJOs04jGl5MDMgRwcm9kUIC7L1oQcRsLIFkSpsEt2v1Ae9EBj3oCseSCAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:10,159.159] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhSz2LlyMYfX_qejjlqi2QeGcj10RRi599QCIP4KKMSy3ojGl5MDMgRwcm9kUIC7L1oQjFoXoVvKrOcIPKrH7YJvzHoCbyCCAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"
+[2026-03-11 17:37:10,460.460] INFO     httpx '_client.py:1740' | HTTP Request: GET https://multimedia.nt.qq.com.cn/download?appid=1406&fileid=EhRGfmP9Xn0EVe-0YDApsgtGJVYtjRijlJ0DIP4KKPPc5ojGl5MDMgRwcm9kUIC7L1oQKmz5iB-N3r3YjklypHZEnnoCc3GCAQJneg&rkey=CAQSMFuHucWEC-S9SbGB9vbhC2xTgRjlL0RUvxSrKyZJJs9GMe_sOBwIezuLj3-wLDGOAg "HTTP/1.1 200 OK"

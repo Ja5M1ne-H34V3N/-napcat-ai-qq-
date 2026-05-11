@@ -1,0 +1,131 @@
+[2026-03-25 16:51:58,120.120] WARNING  Config 'config.py:402' | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2026-03-25 16:51:58,121.121] INFO     Config 'config.py:404' | [BOTQQ]: 2690034884 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: >p1{}Bv=H:)[A;}m
+[2026-03-25 16:51:58,125.125] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/dcg/qqbot/bot/config.yaml
+[2026-03-25 16:51:58,326.326] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-03-25 16:51:58,326.326] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-03-25 16:51:58,329.329] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-03-25 16:51:58,329.329] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/dcg/qqbot/bot/plugins 导入插件
+[2026-03-25 16:51:58,330.330] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-03-25 16:51:58,331.331] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-03-25 16:51:58,369.369] WARNING  ncatbot.core.adapter.nc.launch 'launch.py:47' | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 3001)
+[2026-03-25 16:51:58,530.530] INFO     adapter.nc.start 'start.py:39' | 正在启动 NapCat 服务
+[2026-03-25 16:52:04,583.583] INFO     adapter.nc.start 'start.py:67' | napcat 启动成功
+[2026-03-25 16:52:07,157.157] INFO     ncatbot.core.adapter.nc.launch 'launch.py:135' | 快速登录成功, 跳过登录引导
+[2026-03-25 16:52:07,160.160] INFO     Adapter 'adapter.py:91' | NapCat WebSocket 连接成功
+[2026-03-25 16:52:07,161.161] INFO     Client 'client.py:121' | Bot 2690034884 启动成功
+[2026-03-25 16:52:34,029.029] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-03-25 16:53:24,877.877] INFO     Adapter 'adapter.py:208' | NapCat WebSocket 连接已关闭
+[2026-03-25 16:53:24,879.879] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-03-25 16:53:24,880.880] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-03-25 16:53:24,887.887] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-03-25 16:53:30,679.679] WARNING  Config 'config.py:402' | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2026-03-25 16:53:30,680.680] INFO     Config 'config.py:404' | [BOTQQ]: 2690034884 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: >p1{}Bv=H:)[A;}m
+[2026-03-25 16:53:30,684.684] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/dcg/qqbot/bot/config.yaml
+[2026-03-25 16:53:30,747.747] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-03-25 16:53:30,748.748] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-03-25 16:53:30,752.752] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-03-25 16:53:30,752.752] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/dcg/qqbot/bot/plugins 导入插件
+[2026-03-25 16:53:30,752.752] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-03-25 16:53:30,753.753] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-03-25 16:53:30,772.772] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-03-25 16:55:01,014.014] ERROR    ncatbot.core.adapter.nc.login 'login.py:99' | 授权操作超时, 连接 WebUI 成功但无法获取授权信息, 可以使用 bot.run(enable_webui_interaction=False) 跳过鉴权
+[2026-03-25 16:55:01,014.014] INFO     ncatbot.core.adapter.nc.login 'login.py:102' | 建议更新到最新版本 NapCat
+[2026-03-25 16:55:01,023.023] INFO     ncatbot.core.adapter.nc.login 'login.py:103' | Traceback (most recent call last):
+  File "/home/h34v3n/.local/lib/python3.10/site-packages/ncatbot/core/adapter/nc/login.py", line 70, in __init__
+    "Authorization": "Bearer " + content["data"]["Credential"],
+KeyError: 'data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/h34v3n/.local/lib/python3.10/site-packages/ncatbot/core/adapter/nc/login.py", line 94, in __init__
+    "Authorization": "Bearer " + content["data"]["Credential"],
+KeyError: 'data'
+
+[2026-03-25 16:55:10,918.918] WARNING  Config 'config.py:402' | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2026-03-25 16:55:10,918.918] INFO     Config 'config.py:404' | [BOTQQ]: 2690034884 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: >p1{}Bv=H:)[A;}m
+[2026-03-25 16:55:10,923.923] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/dcg/qqbot/bot/config.yaml
+[2026-03-25 16:55:10,992.992] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-03-25 16:55:10,992.992] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-03-25 16:55:10,996.996] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-03-25 16:55:10,997.997] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/dcg/qqbot/bot/plugins 导入插件
+[2026-03-25 16:55:10,997.997] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-03-25 16:55:10,998.998] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-03-25 16:55:11,017.017] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-03-25 16:56:41,229.229] ERROR    ncatbot.core.adapter.nc.login 'login.py:99' | 授权操作超时, 连接 WebUI 成功但无法获取授权信息, 可以使用 bot.run(enable_webui_interaction=False) 跳过鉴权
+[2026-03-25 16:56:41,229.229] INFO     ncatbot.core.adapter.nc.login 'login.py:102' | 建议更新到最新版本 NapCat
+[2026-03-25 16:56:41,230.230] INFO     ncatbot.core.adapter.nc.login 'login.py:103' | Traceback (most recent call last):
+  File "/home/h34v3n/.local/lib/python3.10/site-packages/ncatbot/core/adapter/nc/login.py", line 70, in __init__
+    "Authorization": "Bearer " + content["data"]["Credential"],
+KeyError: 'data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/h34v3n/.local/lib/python3.10/site-packages/ncatbot/core/adapter/nc/login.py", line 94, in __init__
+    "Authorization": "Bearer " + content["data"]["Credential"],
+KeyError: 'data'
+
+[2026-03-25 16:57:20,921.921] WARNING  Config 'config.py:402' | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2026-03-25 16:57:20,922.922] INFO     Config 'config.py:404' | [BOTQQ]: 2690034884 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: >p1{}Bv=H:)[A;}m
+[2026-03-25 16:57:20,926.926] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/dcg/qqbot/bot/config.yaml
+[2026-03-25 16:57:20,996.996] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-03-25 16:57:20,996.996] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-03-25 16:57:21,000.000] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-03-25 16:57:21,001.001] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/dcg/qqbot/bot/plugins 导入插件
+[2026-03-25 16:57:21,001.001] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-03-25 16:57:21,002.002] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-03-25 16:57:21,020.020] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-03-25 16:57:36,231.231] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-03-25 16:57:36,232.232] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-03-25 16:57:36,239.239] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-03-25 17:03:34,586.586] WARNING  Config 'config.py:402' | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2026-03-25 17:03:34,586.586] INFO     Config 'config.py:404' | [BOTQQ]: 2690034884 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: >p1{}Bv=H:)[A;}m
+[2026-03-25 17:03:34,590.590] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/dcg/qqbot/bot/config.yaml
+[2026-03-25 17:03:34,653.653] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-03-25 17:03:34,654.654] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-03-25 17:03:34,657.657] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-03-25 17:03:34,658.658] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/dcg/qqbot/bot/plugins 导入插件
+[2026-03-25 17:03:34,658.658] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-03-25 17:03:34,659.659] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-03-25 17:03:34,681.681] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-03-25 17:05:00,657.657] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-03-25 17:05:00,658.658] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-03-25 17:05:00,665.665] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-03-25 17:08:05,820.820] WARNING  Config 'config.py:402' | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2026-03-25 17:08:05,820.820] INFO     Config 'config.py:404' | [BOTQQ]: 2690034884 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: >p1{}Bv=H:)[A;}m
+[2026-03-25 17:08:05,824.824] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/dcg/qqbot/bot/config.yaml
+[2026-03-25 17:08:05,886.886] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-03-25 17:08:05,887.887] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-03-25 17:08:05,890.890] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-03-25 17:08:05,890.890] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/dcg/qqbot/bot/plugins 导入插件
+[2026-03-25 17:08:05,891.891] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-03-25 17:08:05,892.892] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-03-25 17:08:05,912.912] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-03-25 17:08:33,732.732] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-03-25 17:08:33,734.734] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-03-25 17:08:33,740.740] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-03-25 17:08:41,181.181] WARNING  Config 'config.py:402' | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2026-03-25 17:08:41,182.182] INFO     Config 'config.py:404' | [BOTQQ]: 2690034884 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: >p1{}Bv=H:)[A;}m
+[2026-03-25 17:08:41,186.186] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/dcg/qqbot/bot/config.yaml
+[2026-03-25 17:08:41,247.247] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-03-25 17:08:41,247.247] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-03-25 17:08:41,251.251] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-03-25 17:08:41,252.252] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/dcg/qqbot/bot/plugins 导入插件
+[2026-03-25 17:08:41,252.252] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-03-25 17:08:41,253.253] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-03-25 17:08:41,272.272] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-03-25 17:10:11,476.476] ERROR    ncatbot.core.adapter.nc.login 'login.py:99' | 授权操作超时, 连接 WebUI 成功但无法获取授权信息, 可以使用 bot.run(enable_webui_interaction=False) 跳过鉴权
+[2026-03-25 17:10:11,477.477] INFO     ncatbot.core.adapter.nc.login 'login.py:102' | 建议更新到最新版本 NapCat
+[2026-03-25 17:10:11,478.478] INFO     ncatbot.core.adapter.nc.login 'login.py:103' | Traceback (most recent call last):
+  File "/home/h34v3n/.local/lib/python3.10/site-packages/ncatbot/core/adapter/nc/login.py", line 70, in __init__
+    "Authorization": "Bearer " + content["data"]["Credential"],
+KeyError: 'data'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/h34v3n/.local/lib/python3.10/site-packages/ncatbot/core/adapter/nc/login.py", line 94, in __init__
+    "Authorization": "Bearer " + content["data"]["Credential"],
+KeyError: 'data'
+
