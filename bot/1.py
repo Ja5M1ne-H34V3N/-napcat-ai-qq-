@@ -1,11 +1,7 @@
 import requests
 import json
 
-# -------------------------- 配置项 --------------------------
-ST_URL = "http://127.0.0.1:2690"
-BASIC_AUTH = ("bean17", "bean17")  # 你的账号密码
-CHARACTER_ID = "你的角色ID"  # 从ST地址栏复制（如 char_xxxx）
-# -----------------------------------------------------------
+
 
 def get_csrf_token():
     """获取 CSRF 令牌（自动处理 cookie）"""

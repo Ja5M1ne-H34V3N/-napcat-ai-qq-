@@ -3,18 +3,9 @@ from ncatbot.core import GroupMessage,PrivateMessage
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from ncatbot.core.event.message_segment import Text, Image, File
+import json
 import os
 # 启动ai
-llm = ChatOpenAI(
-    base_url="https://newapi.ashesb.com/v1", #自行设置模型api
-    api_key="sk-WYcyBGmplbbETXKvEtTjy3rIgrpNvpAcasoTOCLH7CktIZRq",
-    model="gemini-2.5-flash"
-)
-prompt = ChatPromptTemplate.from_messages([
-("system", "你是一个助手，说话即可"),
-("user", "{input}")])
-chain = prompt | llm
-masterQQ = str(input("请输入主人的qq号，在未来，只有收到这个qq号发来的消息才会有回复"))
 
 #初始化一些需要的保存文件的路径
 fileadd = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'filesaved')
@@ -22,8 +13,8 @@ iamgeadd = os.path.join(fileadd,'image')
 os.makedirs(iamgeadd,exist_ok=True)
 
 #目前会有相应的指令集
-commands = ['/aimode',
-            '/quitaimode',
+commands = [
+            
             '/help']
 
 aiMode = False
