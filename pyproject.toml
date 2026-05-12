@@ -1,0 +1,19 @@
+[project]
+name = "napcat-ai-qq-bot"
+version = "0.1.0"
+description = "A QQ bot based on NapCat + ncatbot"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "ncatbot",
+  "langchain-openai",
+  "langchain-core",
+  "openai",
+]
+
+[tool.uv]
+# 可选：让 uv 更偏向使用系统 python（如果你机器上有 python3.10）
+# python-preference = "only-system"
+
+[tool.uv.sources]
+# 这里先不写自定义源；如果你需要国内源我再给你加配置
