@@ -35,9 +35,10 @@ if __name__ == '__main__':
         msg_text = ''
         group_id = msg.group_id
         user_id = msg.user_id
-        if group_id == config.config['mcGroup_qq']:
+        if group_id in config.config['mcGroup_qq']:
+            print("检测到目标群聊的消息，尝试移交给处理端")
             # 检测到是来自正确的群的消息，移交给正确的处理函数
-            recv = groupMessageReact.groupMessageReact(messageArray,group_id,config,user_id)
+            recv = groupMessageReact.groupMessageReact(messageArray.messages,group_id,config,user_id)
             if recv:
-                await bot.api.post_group_msg(group_id=group_id, message=msg)
+                await mybot.api.post_group_msg(group_id=group_id, rtf=recv)
     mybot.run()

@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "napcat-ai-qq-bot"
 version = "0.1.0"
@@ -11,9 +15,15 @@ dependencies = [
   "openai",
 ]
 
+[tool.setuptools]
+# 关键：避免 setuptools 在仓库根目录自动把 logs/ 等目录误当成“顶层包”
+# 这里显式声明只把 bot/ 和 napcat/ 当成包（其余全部排除）
+packages = { find = { include = ["bot*", "napcat*"], exclude = ["logs*", "bot/logs*", "bot.logs*"] } }
+
 [tool.uv]
 # 可选：让 uv 更偏向使用系统 python（如果你机器上有 python3.10）
 # python-preference = "only-system"
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 
 [tool.uv.sources]
 # 这里先不写自定义源；如果你需要国内源我再给你加配置

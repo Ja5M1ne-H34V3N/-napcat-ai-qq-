@@ -1,7 +1,7 @@
 [
 {
-    "pack_name" : "les",
-    "server_link" : "i.qicaiyun.cc:26883",
-    "auth_way":"正版验证"
+    "服务器名称" : "les",
+    "服务器链接" : "i.qicaiyun.cc:26883",
+    "验证方式":"正版验证"
 }
 ]

@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+bot/1.py
+bot/main.py
+bot/arch/groupMessageReact.py
+bot/arch/loadCfg.py
+bot/arch/main.py
+napcat_ai_qq_bot.egg-info/PKG-INFO
+napcat_ai_qq_bot.egg-info/SOURCES.txt
+napcat_ai_qq_bot.egg-info/dependency_links.txt
+napcat_ai_qq_bot.egg-info/requires.txt
+napcat_ai_qq_bot.egg-info/top_level.txt
