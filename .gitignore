@@ -1,1 +1,8 @@
 filesaved/
+data/
+logs/
+napcat_ai_qq_bot.egg-info/
+uv.lock
+.venv
+pyproject.toml
+config.yaml

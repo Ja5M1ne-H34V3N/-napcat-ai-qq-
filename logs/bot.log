@@ -662,3 +662,167 @@ TypeError: MessageAPI.post_group_msg() got an unexpected keyword argument 'messa
 [2026-05-14 14:54:49,399.399] INFO     Adapter 'adapter.py:91' | NapCat WebSocket 连接成功
 [2026-05-14 14:54:49,400.400] INFO     Client 'client.py:121' | Bot 3966246056 启动成功
 [2026-05-14 14:55:01,730.730] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-05-14 21:45:49,779.779] INFO     Adapter 'adapter.py:208' | NapCat WebSocket 连接已关闭
+[2026-05-14 21:45:49,782.782] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-05-14 21:45:49,783.783] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-05-14 21:45:49,789.789] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-05-14 21:46:01,375.375] INFO     Config 'config.py:404' | [BOTQQ]: 3966246056 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 948242589 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: 9o,&(1+{}Rv4=Mil
+[2026-05-14 21:46:01,379.379] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/gitProj/-napcat-ai-qq-/config.yaml
+[2026-05-14 21:46:01,430.430] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-05-14 21:46:01,431.431] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-05-14 21:46:01,434.434] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-05-14 21:46:01,434.434] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/gitProj/-napcat-ai-qq-/plugins 导入插件
+[2026-05-14 21:46:01,435.435] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-05-14 21:46:01,435.435] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-05-14 21:46:01,451.451] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-05-14 21:46:01,499.499] INFO     Adapter 'adapter.py:91' | NapCat WebSocket 连接成功
+[2026-05-14 21:46:01,500.500] INFO     Client 'client.py:121' | Bot 3966246056 启动成功
+[2026-05-14 21:46:05,500.500] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-05-14 21:46:51,680.680] INFO     Adapter 'adapter.py:208' | NapCat WebSocket 连接已关闭
+[2026-05-14 21:46:51,683.683] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-05-14 21:46:51,684.684] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-05-14 21:46:51,690.690] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-05-14 21:46:56,335.335] INFO     Config 'config.py:404' | [BOTQQ]: 3966246056 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 948242589 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: 9o,&(1+{}Rv4=Mil
+[2026-05-14 21:46:56,338.338] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/gitProj/-napcat-ai-qq-/config.yaml
+[2026-05-14 21:46:56,390.390] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-05-14 21:46:56,390.390] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-05-14 21:46:56,393.393] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-05-14 21:46:56,393.393] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/gitProj/-napcat-ai-qq-/plugins 导入插件
+[2026-05-14 21:46:56,394.394] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-05-14 21:46:56,394.394] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-05-14 21:46:56,408.408] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-05-14 21:46:56,457.457] INFO     Adapter 'adapter.py:91' | NapCat WebSocket 连接成功
+[2026-05-14 21:46:56,458.458] INFO     Client 'client.py:121' | Bot 3966246056 启动成功
+[2026-05-14 21:47:01,171.171] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-05-14 21:47:57,254.254] INFO     Adapter 'adapter.py:208' | NapCat WebSocket 连接已关闭
+[2026-05-14 21:47:57,257.257] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-05-14 21:47:57,258.258] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-05-14 21:47:57,264.264] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-05-14 21:48:01,319.319] INFO     Config 'config.py:404' | [BOTQQ]: 3966246056 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 948242589 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: 9o,&(1+{}Rv4=Mil
+[2026-05-14 21:48:01,323.323] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/gitProj/-napcat-ai-qq-/config.yaml
+[2026-05-14 21:48:01,375.375] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-05-14 21:48:01,375.375] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-05-14 21:48:01,378.378] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-05-14 21:48:01,379.379] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/gitProj/-napcat-ai-qq-/plugins 导入插件
+[2026-05-14 21:48:01,379.379] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-05-14 21:48:01,380.380] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-05-14 21:48:01,395.395] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-05-14 21:48:01,444.444] INFO     Adapter 'adapter.py:91' | NapCat WebSocket 连接成功
+[2026-05-14 21:48:01,444.444] INFO     Client 'client.py:121' | Bot 3966246056 启动成功
+[2026-05-14 21:48:05,715.715] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-05-14 21:48:28,261.261] INFO     Adapter 'adapter.py:208' | NapCat WebSocket 连接已关闭
+[2026-05-14 21:48:28,263.263] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-05-14 21:48:28,264.264] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-05-14 21:48:28,270.270] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-05-14 21:48:37,947.947] INFO     Config 'config.py:404' | [BOTQQ]: 3966246056 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 948242589 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: 9o,&(1+{}Rv4=Mil
+[2026-05-14 21:48:37,950.950] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/gitProj/-napcat-ai-qq-/config.yaml
+[2026-05-14 21:48:38,003.003] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-05-14 21:48:38,003.003] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-05-14 21:48:38,006.006] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-05-14 21:48:38,007.007] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/gitProj/-napcat-ai-qq-/plugins 导入插件
+[2026-05-14 21:48:38,007.007] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-05-14 21:48:38,008.008] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-05-14 21:48:38,024.024] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-05-14 21:48:38,073.073] INFO     Adapter 'adapter.py:91' | NapCat WebSocket 连接成功
+[2026-05-14 21:48:38,073.073] INFO     Client 'client.py:121' | Bot 3966246056 启动成功
+[2026-05-14 21:48:41,608.608] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-05-14 21:48:53,400.400] INFO     Adapter 'adapter.py:208' | NapCat WebSocket 连接已关闭
+[2026-05-14 21:48:53,402.402] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-05-14 21:48:53,402.402] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-05-14 21:48:53,407.407] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-05-14 21:48:58,151.151] INFO     Config 'config.py:404' | [BOTQQ]: 3966246056 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 948242589 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: 9o,&(1+{}Rv4=Mil
+[2026-05-14 21:48:58,154.154] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/gitProj/-napcat-ai-qq-/config.yaml
+[2026-05-14 21:48:58,206.206] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-05-14 21:48:58,206.206] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-05-14 21:48:58,210.210] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-05-14 21:48:58,210.210] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/gitProj/-napcat-ai-qq-/plugins 导入插件
+[2026-05-14 21:48:58,211.211] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-05-14 21:48:58,211.211] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-05-14 21:48:58,228.228] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-05-14 21:48:58,277.277] INFO     Adapter 'adapter.py:91' | NapCat WebSocket 连接成功
+[2026-05-14 21:48:58,277.277] INFO     Client 'client.py:121' | Bot 3966246056 启动成功
+[2026-05-14 21:49:04,067.067] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-05-14 21:50:59,713.713] INFO     Adapter 'adapter.py:208' | NapCat WebSocket 连接已关闭
+[2026-05-14 21:50:59,716.716] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-05-14 21:50:59,717.717] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-05-14 21:50:59,724.724] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-05-14 21:51:04,902.902] INFO     Config 'config.py:404' | [BOTQQ]: 3966246056 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 948242589 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: 9o,&(1+{}Rv4=Mil
+[2026-05-14 21:51:04,906.906] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/gitProj/-napcat-ai-qq-/config.yaml
+[2026-05-14 21:51:04,960.960] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-05-14 21:51:04,961.961] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-05-14 21:51:04,964.964] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-05-14 21:51:04,964.964] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/gitProj/-napcat-ai-qq-/plugins 导入插件
+[2026-05-14 21:51:04,965.965] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-05-14 21:51:04,965.965] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-05-14 21:51:04,979.979] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-05-14 21:51:05,026.026] INFO     Adapter 'adapter.py:91' | NapCat WebSocket 连接成功
+[2026-05-14 21:51:05,027.027] INFO     Client 'client.py:121' | Bot 3966246056 启动成功
+[2026-05-14 21:51:08,043.043] ERROR    asyncio 'base_events.py:1758' | Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /home/h34v3n/share/gitProj/-napcat-ai-qq-/.venv/lib/python3.10/site-packages/ncatbot/core/client.py:161> exception=AttributeError("'function' object has no attribute 'players'")>
+Traceback (most recent call last):
+  File "/home/h34v3n/share/gitProj/-napcat-ai-qq-/.venv/lib/python3.10/site-packages/ncatbot/core/client.py", line 166, in wrapper
+    await handler(event)
+  File "/home/h34v3n/share/gitProj/-napcat-ai-qq-/bot/arch/main.py", line 41, in on_group_messange
+    recv = groupMessageReact.groupMessageReact(messageArray.messages,group_id,config,user_id)
+  File "/home/h34v3n/share/gitProj/-napcat-ai-qq-/bot/arch/groupMessageReact.py", line 34, in groupMessageReact
+    res += f"在线人数：{server.status.players.online}/{server.status.max}"
+AttributeError: 'function' object has no attribute 'players'
+[2026-05-14 21:51:08,046.046] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-05-14 21:53:08,506.506] INFO     Adapter 'adapter.py:208' | NapCat WebSocket 连接已关闭
+[2026-05-14 21:53:08,509.509] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-05-14 21:53:08,510.510] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-05-14 21:53:08,514.514] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-05-14 21:53:13,608.608] INFO     Config 'config.py:404' | [BOTQQ]: 3966246056 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 948242589 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: 9o,&(1+{}Rv4=Mil
+[2026-05-14 21:53:13,611.611] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/gitProj/-napcat-ai-qq-/config.yaml
+[2026-05-14 21:53:13,663.663] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-05-14 21:53:13,663.663] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-05-14 21:53:13,666.666] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-05-14 21:53:13,666.666] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/gitProj/-napcat-ai-qq-/plugins 导入插件
+[2026-05-14 21:53:13,667.667] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-05-14 21:53:13,667.667] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-05-14 21:53:13,683.683] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-05-14 21:53:13,733.733] INFO     Adapter 'adapter.py:91' | NapCat WebSocket 连接成功
+[2026-05-14 21:53:13,733.733] INFO     Client 'client.py:121' | Bot 3966246056 启动成功
+[2026-05-14 21:53:20,051.051] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-05-14 21:53:29,318.318] ERROR    asyncio 'base_events.py:1758' | Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /home/h34v3n/share/gitProj/-napcat-ai-qq-/.venv/lib/python3.10/site-packages/ncatbot/core/client.py:161> exception=AttributeError("'JavaStatusResponse' object has no attribute 'max'")>
+Traceback (most recent call last):
+  File "/home/h34v3n/share/gitProj/-napcat-ai-qq-/.venv/lib/python3.10/site-packages/ncatbot/core/client.py", line 166, in wrapper
+    await handler(event)
+  File "/home/h34v3n/share/gitProj/-napcat-ai-qq-/bot/arch/main.py", line 41, in on_group_messange
+    recv = groupMessageReact.groupMessageReact(messageArray.messages,group_id,config,user_id)
+  File "/home/h34v3n/share/gitProj/-napcat-ai-qq-/bot/arch/groupMessageReact.py", line 34, in groupMessageReact
+    res += f"在线人数：{server.status().players.online}/{server.status().max}"
+AttributeError: 'JavaStatusResponse' object has no attribute 'max'
+[2026-05-14 21:53:40,575.575] INFO     Adapter 'adapter.py:208' | NapCat WebSocket 连接已关闭
+[2026-05-14 21:53:40,578.578] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-05-14 21:53:40,579.579] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-05-14 21:53:40,585.585] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-05-14 21:53:45,456.456] INFO     Config 'config.py:404' | [BOTQQ]: 3966246056 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 948242589 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: 9o,&(1+{}Rv4=Mil
+[2026-05-14 21:53:45,459.459] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/gitProj/-napcat-ai-qq-/config.yaml
+[2026-05-14 21:53:45,512.512] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-05-14 21:53:45,512.512] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-05-14 21:53:45,515.515] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-05-14 21:53:45,516.516] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/gitProj/-napcat-ai-qq-/plugins 导入插件
+[2026-05-14 21:53:45,516.516] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-05-14 21:53:45,517.517] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-05-14 21:53:45,531.531] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-05-14 21:53:45,579.579] INFO     Adapter 'adapter.py:91' | NapCat WebSocket 连接成功
+[2026-05-14 21:53:45,580.580] INFO     Client 'client.py:121' | Bot 3966246056 启动成功
+[2026-05-14 21:53:50,432.432] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-05-14 21:54:43,363.363] INFO     Adapter 'adapter.py:208' | NapCat WebSocket 连接已关闭
+[2026-05-14 21:54:43,365.365] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-05-14 21:54:43,366.366] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-05-14 21:54:43,372.372] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-05-14 21:54:48,203.203] INFO     Config 'config.py:404' | [BOTQQ]: 3966246056 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 948242589 | [WEBUI]: http://localhost:6099 | [WEBUI_TOKEN]: 9o,&(1+{}Rv4=Mil
+[2026-05-14 21:54:48,206.206] INFO     Config 'config.py:111' | 配置已保存到 /home/h34v3n/share/gitProj/-napcat-ai-qq-/config.yaml
+[2026-05-14 21:54:48,259.259] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-05-14 21:54:48,259.259] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-05-14 21:54:48,263.263] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-05-14 21:54:48,263.263] INFO     PluginLoader 'loader.py:353' | 从 /home/h34v3n/share/gitProj/-napcat-ai-qq-/plugins 导入插件
+[2026-05-14 21:54:48,263.263] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [2]
+[2026-05-14 21:54:48,264.264] INFO     ncatbot.core.adapter.nc.launch 'launch.py:115' | 正在以本地模式运行, 检查中...
+[2026-05-14 21:54:48,279.279] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-05-14 21:54:48,329.329] INFO     Adapter 'adapter.py:91' | NapCat WebSocket 连接成功
+[2026-05-14 21:54:48,329.329] INFO     Client 'client.py:121' | Bot 3966246056 启动成功
+[2026-05-14 21:54:55,273.273] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']

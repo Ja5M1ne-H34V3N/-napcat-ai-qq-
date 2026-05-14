@@ -4,6 +4,7 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from ncatbot.core.event.message_segment import Text, Image, File,At,MessageArray
 import loadCfg
+from mcstatus import JavaServer
 import os
 
 def groupMessageReact(msg,qq:int,cfg:loadCfg.cfg,user_id): 
@@ -27,6 +28,17 @@ def groupMessageReact(msg,qq:int,cfg:loadCfg.cfg,user_id):
                 res += "==============\n"
                 for k,v in i.items():
                     res += f"{k}:{v}\n"
+            
+                
+            try:   
+                a = i['服务器链接'].split(":")
+                server = JavaServer(a[0],int(a[1]))
+                res += f"ping_ms:{int(server.ping())}\n"
+                res += f"在线人数：{server.status().players.online}/{server.status().players.max}\n"
+                
+            except Exception as e:
+                print(e)
+                res += "未连接到服务器"
             res += "=============="
             resMsg = (MessageArray() + At(user_id) + Text(res))
             return resMsg

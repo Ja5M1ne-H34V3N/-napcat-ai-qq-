@@ -13,6 +13,7 @@ dependencies = [
   "langchain-openai",
   "langchain-core",
   "openai",
+  "mcstatus>=13.1.0",
 ]
 
 [tool.setuptools]
