@@ -3,3 +3,4 @@ langchain-openai
 langchain-core
 openai
 mcstatus>=13.1.0
+mctools>=1.4.1

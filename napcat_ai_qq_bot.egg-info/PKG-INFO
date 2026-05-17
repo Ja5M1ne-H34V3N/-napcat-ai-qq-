@@ -9,6 +9,7 @@ Requires-Dist: langchain-openai
 Requires-Dist: langchain-core
 Requires-Dist: openai
 Requires-Dist: mcstatus>=13.1.0
+Requires-Dist: mctools>=1.4.1
 
 练手玩的：
 目前只有很简单的功能，自行配置api模型，并且部署在本地，同时可以从qq私信的方式来完成一些操作

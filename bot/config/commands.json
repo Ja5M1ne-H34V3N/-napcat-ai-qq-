@@ -1,5 +1,6 @@
 [
     "/help",
     "/server",
-    "/addserver"
+    "/addserver",
+    "/tellserver"
 ]
